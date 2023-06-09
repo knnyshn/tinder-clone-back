@@ -1,4 +1,3 @@
-const PORT = 8000;
 const express = require("express");
 const { MongoClient } = require("mongodb");
 const { v4: uuidv4 } = require("uuid");
@@ -8,6 +7,8 @@ const bcrypt = require("bcrypt");
 require('dotenv').config()
 
 const uri = process.env.URI
+const PORT = process.env.PORT || 80
+
 // CONST URI GOES HERE
 // DO NOT PUSH UNTIL THIS IS HIDDEN
 
