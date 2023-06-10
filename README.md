@@ -6,7 +6,7 @@ This is a basic recreation of the popular dating app Tinder. It utilizes MongoDB
 
 ### Data Model / Code Snippet
 
-``
+```
   const [formData, setFormData] = useState({
     user_id: cookies.UserId,
     first_name: "string",
@@ -20,7 +20,7 @@ This is a basic recreation of the popular dating app Tinder. It utilizes MongoDB
     about: "string",
     matches: [],
   });
-``
+```
 
 ### Successes and Blockers
 
